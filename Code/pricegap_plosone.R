@@ -12,6 +12,7 @@ library(lubridate)
 library(segmented)
 library(dplyr)
 
+setwd("")
 marketpair1<-fread("marketpair_plosone.csv")
 
 #######Appendix Table 4################
