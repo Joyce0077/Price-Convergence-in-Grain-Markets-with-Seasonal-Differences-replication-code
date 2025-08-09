@@ -9,6 +9,7 @@ library(dplyr)
 library(knitr)
 library(reshape2)
 
+setwd("")
 price4<-fread("price_dt.csv")
 
 
