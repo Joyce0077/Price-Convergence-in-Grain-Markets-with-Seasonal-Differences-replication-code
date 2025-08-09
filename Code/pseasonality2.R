@@ -8,7 +8,7 @@ library(lubridate)
 library(segmented)
 library(cowplot)
 
-setwd("/Users/liujiawen/Downloads/RA_work/KasuwaGo/price/Other data")
+setwd("")
 price3<-data.table(read_excel("FEWS_NET_Staple_Food_Price_Data.xlsx"))
 price3<-price3[country=="Nigeria"&(product=="Cowpeas (Brown)"|product=="Cowpeas (White)"|product=="Rice (5% Broken)"|product=="Rice (Milled)"),]
 market1 <- data.table(read_excel("marketfew.xls"))
