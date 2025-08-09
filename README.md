@@ -14,7 +14,8 @@ This repository contains code and data to replicate figures and tables in **Pric
 > Scripts are independent—no specific run order required. Open any `.R` file and run it to reproduce the associated output.
 
 ## Data files and roles
-
+Please use the following link to access the data, as the file is too large to upload here.
+https://drive.google.com/drive/folders/12AbFhl-FPATWrRolNR0owbzYcS7AxgWb?usp=drive_link
 - price_season_analysis1.csv – **Main regression panel** (market-pair × item × time) with all variables used in Table 3 and stationarity tests.
 - price_dt.csv – **Raw/clean price panel** (market × item × time) used to build Figure 2 and descriptive stats.
 - marketpair_plosone.csv – **Appendix regression panel** (market-pair × item × time) used in Appendix Table 4.
