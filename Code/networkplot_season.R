@@ -7,7 +7,7 @@ library(rnaturalearthdata)
 library(rnaturalearthhires)
 library(ggrepel)
 library(data.table)
-setwd("D:/AFRE/My Research/HPCC/Price/Data")
+setwd("")
 
 
 # Load country and state data
@@ -100,4 +100,5 @@ ggsave("nigeria_market_network_northSouth.pdf", plot = g, width = 11, height = 8
 g<-graph_from_data_frame(d=edges,vertices = nodes, directed = T)
 
 nodes$degree_centrality<-degree(g)
+
 
