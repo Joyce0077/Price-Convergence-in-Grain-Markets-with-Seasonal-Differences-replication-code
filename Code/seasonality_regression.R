@@ -7,9 +7,9 @@ library(stargazer)
 library(readxl)
 library(plm)
 
-
+setwd("")
 #import our data
-price4_1<-fread("/Volumes/Extreme SSD/Joyce/My research/Plosone_seasonality/Data/price_season_analysis1.csv")
+price4_1<-fread("price_season_analysis1.csv")
 #The definition of our main variables in regression
 #You don't need to run it again.
 #setkey(price4,mkt1,mkt2,itemname0,week)
