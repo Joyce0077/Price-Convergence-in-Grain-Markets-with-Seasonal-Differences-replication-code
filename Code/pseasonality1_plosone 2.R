@@ -9,7 +9,7 @@ library(lubridate)
 library(segmented)
 library(cowplot)
 
-setwd("/Volumes/Extreme SSD/Joyce/My research/Plosone_seasonality/Data")
+setwd("")
 
 price4<-fread("price_dt.csv")
 #Remove some extreme price that potentially entered by mistakes
